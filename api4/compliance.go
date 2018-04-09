@@ -8,7 +8,7 @@ import (
 	"strconv"
 
 	"github.com/avct/uasurfer"
-	"github.com/mattermost/mattermost-server/model"
+	"github.com/demisto/mattermost-server/model"
 )
 
 func (api *API) InitCompliance() {

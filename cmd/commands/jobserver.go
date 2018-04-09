@@ -9,7 +9,7 @@ import (
 	"syscall"
 
 	l4g "github.com/alecthomas/log4go"
-	"github.com/mattermost/mattermost-server/cmd"
+	"github.com/demisto/mattermost-server/cmd"
 	"github.com/spf13/cobra"
 )
 

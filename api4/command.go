@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mattermost/mattermost-server/model"
+	"github.com/demisto/mattermost-server/model"
 )
 
 func (api *API) InitCommand() {

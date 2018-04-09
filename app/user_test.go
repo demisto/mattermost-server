@@ -15,9 +15,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/mattermost/mattermost-server/einterfaces"
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/model/gitlab"
+	"github.com/demisto/mattermost-server/einterfaces"
+	"github.com/demisto/mattermost-server/model"
+	"github.com/demisto/mattermost-server/model/gitlab"
 )
 
 func TestIsUsernameTaken(t *testing.T) {

@@ -17,14 +17,14 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/pkg/errors"
 
-	"github.com/mattermost/mattermost-server/einterfaces"
-	ejobs "github.com/mattermost/mattermost-server/einterfaces/jobs"
-	"github.com/mattermost/mattermost-server/jobs"
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/plugin/pluginenv"
-	"github.com/mattermost/mattermost-server/store"
-	"github.com/mattermost/mattermost-server/store/sqlstore"
-	"github.com/mattermost/mattermost-server/utils"
+	"github.com/demisto/mattermost-server/einterfaces"
+	ejobs "github.com/demisto/mattermost-server/einterfaces/jobs"
+	"github.com/demisto/mattermost-server/jobs"
+	"github.com/demisto/mattermost-server/model"
+	"github.com/demisto/mattermost-server/plugin/pluginenv"
+	"github.com/demisto/mattermost-server/store"
+	"github.com/demisto/mattermost-server/store/sqlstore"
+	"github.com/demisto/mattermost-server/utils"
 )
 
 const ADVANCED_PERMISSIONS_MIGRATION_KEY = "AdvancedPermissionsMigrationComplete"

@@ -6,9 +6,9 @@ package store
 import (
 	"context"
 
-	"github.com/mattermost/mattermost-server/einterfaces"
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/utils"
+	"github.com/demisto/mattermost-server/einterfaces"
+	"github.com/demisto/mattermost-server/model"
+	"github.com/demisto/mattermost-server/utils"
 )
 
 const (

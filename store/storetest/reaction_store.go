@@ -6,8 +6,8 @@ package storetest
 import (
 	"testing"
 
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/store"
+	"github.com/demisto/mattermost-server/model"
+	"github.com/demisto/mattermost-server/store"
 )
 
 func TestReactionStore(t *testing.T, ss store.Store) {

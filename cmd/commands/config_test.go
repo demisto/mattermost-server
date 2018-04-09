@@ -9,11 +9,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/mattermost/mattermost-server/cmd"
+	"github.com/demisto/mattermost-server/cmd"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mattermost/mattermost-server/model"
+	"github.com/demisto/mattermost-server/model"
 )
 
 func TestConfigValidate(t *testing.T) {

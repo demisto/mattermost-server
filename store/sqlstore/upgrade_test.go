@@ -6,8 +6,8 @@ package sqlstore
 import (
 	"testing"
 
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/store"
+	"github.com/demisto/mattermost-server/model"
+	"github.com/demisto/mattermost-server/store"
 )
 
 func TestStoreUpgrade(t *testing.T) {

@@ -4,9 +4,9 @@
 package app
 
 import (
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/store"
-	"github.com/mattermost/mattermost-server/utils"
+	"github.com/demisto/mattermost-server/model"
+	"github.com/demisto/mattermost-server/store"
+	"github.com/demisto/mattermost-server/utils"
 
 	l4g "github.com/alecthomas/log4go"
 )

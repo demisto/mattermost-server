@@ -15,9 +15,9 @@ import (
 	"github.com/gorilla/mux"
 	goi18n "github.com/nicksnyder/go-i18n/i18n"
 
-	"github.com/mattermost/mattermost-server/app"
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/utils"
+	"github.com/demisto/mattermost-server/app"
+	"github.com/demisto/mattermost-server/model"
+	"github.com/demisto/mattermost-server/utils"
 )
 
 type Context struct {

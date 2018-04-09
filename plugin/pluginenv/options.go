@@ -4,10 +4,10 @@
 package pluginenv
 
 import (
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/plugin"
-	"github.com/mattermost/mattermost-server/plugin/rpcplugin"
-	"github.com/mattermost/mattermost-server/plugin/rpcplugin/sandbox"
+	"github.com/demisto/mattermost-server/model"
+	"github.com/demisto/mattermost-server/plugin"
+	"github.com/demisto/mattermost-server/plugin/rpcplugin"
+	"github.com/demisto/mattermost-server/plugin/rpcplugin/sandbox"
 )
 
 // APIProvider specifies a function that provides an API implementation to each plugin.

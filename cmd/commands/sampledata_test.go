@@ -6,8 +6,8 @@ package commands
 import (
 	"testing"
 
-	"github.com/mattermost/mattermost-server/api"
-	"github.com/mattermost/mattermost-server/cmd"
+	"github.com/demisto/mattermost-server/api"
+	"github.com/demisto/mattermost-server/cmd"
 	"github.com/stretchr/testify/require"
 )
 

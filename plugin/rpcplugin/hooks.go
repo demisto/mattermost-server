@@ -11,8 +11,8 @@ import (
 	"net/rpc"
 	"reflect"
 
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/plugin"
+	"github.com/demisto/mattermost-server/model"
+	"github.com/demisto/mattermost-server/plugin"
 )
 
 type LocalHooks struct {

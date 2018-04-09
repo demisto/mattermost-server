@@ -4,8 +4,8 @@
 package einterfaces
 
 import (
-	"github.com/mattermost/mattermost-server/model"
 	"io"
+	"github.com/demisto/mattermost-server/model"
 )
 
 type OauthProvider interface {

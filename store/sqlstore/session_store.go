@@ -8,8 +8,8 @@ import (
 	"time"
 
 	l4g "github.com/alecthomas/log4go"
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/store"
+	"github.com/demisto/mattermost-server/model"
+	"github.com/demisto/mattermost-server/store"
 )
 
 const (

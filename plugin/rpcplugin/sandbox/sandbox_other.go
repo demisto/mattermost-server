@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/mattermost/mattermost-server/plugin/rpcplugin"
+	"github.com/demisto/mattermost-server/plugin/rpcplugin"
 )
 
 func newProcess(ctx context.Context, config *Configuration, path string) (rpcplugin.Process, io.ReadWriteCloser, error) {

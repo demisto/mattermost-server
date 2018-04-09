@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/mattermost/mattermost-server/plugin"
-	"github.com/mattermost/mattermost-server/plugin/rpcplugin"
+	"github.com/demisto/mattermost-server/plugin"
+	"github.com/demisto/mattermost-server/plugin/rpcplugin"
 )
 
 type HelloUserPlugin struct {

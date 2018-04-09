@@ -9,7 +9,7 @@ import (
 
 	"fmt"
 
-	"github.com/mattermost/mattermost-server/cmd"
+	"github.com/demisto/mattermost-server/cmd"
 	"github.com/spf13/cobra"
 )
 

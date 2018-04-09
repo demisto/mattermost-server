@@ -10,8 +10,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/store"
+	"github.com/demisto/mattermost-server/model"
+	"github.com/demisto/mattermost-server/store"
 )
 
 type Role struct {

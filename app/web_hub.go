@@ -15,8 +15,8 @@ import (
 
 	l4g "github.com/alecthomas/log4go"
 
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/utils"
+	"github.com/demisto/mattermost-server/model"
+	"github.com/demisto/mattermost-server/utils"
 )
 
 const (
@@ -27,7 +27,7 @@ const (
 
 type Hub struct {
 	// connectionCount should be kept first.
-	// See https://github.com/mattermost/mattermost-server/pull/7281
+	// See https://github.com/demisto/mattermost-server/pull/7281
 	connectionCount int64
 	app             *App
 	connectionIndex int

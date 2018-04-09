@@ -5,9 +5,9 @@ package commands
 
 import (
 	"errors"
-	"github.com/mattermost/mattermost-server/app"
-	"github.com/mattermost/mattermost-server/cmd"
-	"github.com/mattermost/mattermost-server/model"
+	"github.com/demisto/mattermost-server/app"
+	"github.com/demisto/mattermost-server/cmd"
+	"github.com/demisto/mattermost-server/model"
 	"github.com/spf13/cobra"
 )
 

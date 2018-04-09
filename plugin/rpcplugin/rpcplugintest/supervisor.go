@@ -16,9 +16,9 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/plugin"
-	"github.com/mattermost/mattermost-server/plugin/plugintest"
+	"github.com/demisto/mattermost-server/model"
+	"github.com/demisto/mattermost-server/plugin"
+	"github.com/demisto/mattermost-server/plugin/plugintest"
 )
 
 type SupervisorProviderFunc = func(*model.BundleInfo) (plugin.Supervisor, error)
@@ -45,7 +45,7 @@ func testSupervisor(t *testing.T, sp SupervisorProviderFunc) {
 		package main
 
 		import (
-			"github.com/mattermost/mattermost-server/plugin/rpcplugin"
+			"github.com/demisto/mattermost-server/plugin/rpcplugin"
 		)
 
 		type MyPlugin struct {}
@@ -129,8 +129,8 @@ func testSupervisor_PluginCrash(t *testing.T, sp SupervisorProviderFunc) {
 		import (
 			"os"
 
-			"github.com/mattermost/mattermost-server/plugin"
-			"github.com/mattermost/mattermost-server/plugin/rpcplugin"
+			"github.com/demisto/mattermost-server/plugin"
+			"github.com/demisto/mattermost-server/plugin/rpcplugin"
 		)
 
 		type Configuration struct {

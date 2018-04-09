@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mattermost/mattermost-server/api"
-	"github.com/mattermost/mattermost-server/cmd"
-	"github.com/mattermost/mattermost-server/model"
+	"github.com/demisto/mattermost-server/api"
+	"github.com/demisto/mattermost-server/cmd"
+	"github.com/demisto/mattermost-server/model"
 	"github.com/stretchr/testify/require"
 )
 

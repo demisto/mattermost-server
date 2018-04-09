@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mattermost/mattermost-server/cmd"
+	"github.com/demisto/mattermost-server/cmd"
 )
 
 func TestExecCommand(t *testing.T) {

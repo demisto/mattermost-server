@@ -4,9 +4,9 @@
 package jobs
 
 import (
-	ejobs "github.com/mattermost/mattermost-server/einterfaces/jobs"
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/store"
+	ejobs "github.com/demisto/mattermost-server/einterfaces/jobs"
+	"github.com/demisto/mattermost-server/model"
+	"github.com/demisto/mattermost-server/store"
 )
 
 type ConfigService interface {

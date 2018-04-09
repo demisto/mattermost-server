@@ -6,8 +6,8 @@ package plugintest
 import (
 	"github.com/stretchr/testify/mock"
 
-	"github.com/mattermost/mattermost-server/model"
-	"github.com/mattermost/mattermost-server/plugin"
+	"github.com/demisto/mattermost-server/plugin"
+	"github.com/demisto/mattermost-server/model"
 )
 
 type API struct {

@@ -7,7 +7,7 @@ import (
 	"sync"
 
 	l4g "github.com/alecthomas/log4go"
-	"github.com/mattermost/mattermost-server/model"
+	"github.com/demisto/mattermost-server/model"
 )
 
 type Workers struct {
